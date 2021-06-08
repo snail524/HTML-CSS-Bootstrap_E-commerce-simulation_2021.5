@@ -1,0 +1,16 @@
+.product{
+    h5{
+        font-weight: normal;
+    }
+    .input-group{
+
+        input{
+            border: solid 1px $primary;
+            outline: none;
+            padding: 14px;
+        }
+        .form-control{
+            height: auto;
+        }
+    }
+}

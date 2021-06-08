@@ -1,0 +1,69 @@
+h1 a{
+    background-image: url("../img/layout/d’Perfume.png");
+    width: 128px;
+    height: 38px;
+    background-size: contain;
+    display: block;  
+    background-repeat: no-repeat;
+    @include hide-text;
+}
+h5{
+    margin: 0;
+}
+.container{
+    padding: 0;
+}
+.ptb-14{
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.layout {
+    h1{
+        margin: 0;
+    }
+    .nav-link{
+    padding: 14px;
+    }
+    .menu{
+        li{
+            background: #707070;
+            border: 1px solid white;
+            color: white;
+        }
+    }
+}
+.container a{
+    color: #8D8D8D;
+}
+
+
+.footer-img{
+    .input-group{
+        // width: 120%;
+        .form-control{
+             height: auto;
+        }
+        input{
+             padding: 21px 16px;
+          
+         }
+         .input-subscribe{
+             width: 40%;
+             border: solid 1px $primary;
+             color: white;
+         }
+        .input-mail{
+            width: 60%;
+            border: solid 1px $primary;
+        }
+    }
+}
+
+.layout_fotter a {
+    color: #FFFFFF;
+}
+
+
+.menu li{
+    display: none;
+}

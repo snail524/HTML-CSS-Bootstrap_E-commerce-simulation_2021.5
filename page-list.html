@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week7_product-list
+    </title>
+    <link rel="stylesheet" href="css/all.min.css">   
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+    rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/all.js"></script>
+
+
+</head>
+<body>
+
+    <div class="container mb-sm-2 mt-sm-2 layout">
+        <div class="nav justify-content-between align-items-center">
+            <h1><a href="index.html">logo</a></h1>
+            <ul class="nav d-none d-md-block d-md-flex justify-content-end align-items-center ">
+                <li class="nav-item ">
+                    <a class="nav-link active d-flex align-items-center" href="page-list.html" >
+                        
+                        <span class="material-icons" >
+                            store
+                        </span> 
+                        <h5 class="m-0" >Product</h5>    
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link active d-flex align-items-center " href="login.html" >
+                        <span class="material-icons">
+                            person
+                            </span>
+                       
+                        <h5 class="m-0" >log in</h5>    
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link active d-flex align-items-center" href="#" >
+                        
+                        <span class="material-icons">
+                            favorite
+                            </span>
+                            
+                        <h5 class="m-0" >Wishlist</h5>    
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link active d-flex align-items-center" href="#" >                        
+                        <span class="material-icons">
+                            shopping_cart
+                            </span>
+                            
+                        <h5 class="m-0" >Cart(3)</h5>    
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav d-md-none justify-content-center align-items-center">
+                <li class="nav-item ">
+                    <a class="nav-link active d-flex align-items-center" href="#" >
+                        <span class="material-icons" >
+                            shopping_cart
+                        </span> 
+                    </a>
+                </li>
+                <li class="nav-item menu-logo">
+                    <a class="nav-link active d-flex align-items-center menu-logo" href="#" >
+                        <span class="material-icons menu-logo" >
+                            menu
+                        </span> 
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+        <ul class="list-group menu d-none d-md-none d-flex justify-content-center text-center list-unstyled ">
+            <li class="list-group-item  "><a href=""></a> Product</li>
+            <li class="list-group-item">Wishlist</li>
+            <li class="list-group-item">Blog</li>
+            <li class="list-group-item">Contact</li>
+            <li class="list-group-item">Mypage</li>
+          </ul>
+    </div>
+    <div class="container-fluid  d-none d-md-block bg-primary layout mb-60" >
+        <div class="container">
+            <ul class="nav  ">
+                <li class="nav-item">
+                    <h5>
+                        <a class="nav-link text-light active" aria-current="page" href="#">CHANEL</a>
+                    </h5>
+                </li>
+                <li class="nav-item">
+                    <h5>
+                        <a class="nav-link text-light" href="#">Jo Malone</a>
+                    </h5>
+                </li>
+                <li class="nav-item">
+                    <h5>
+                        <a class="nav-link text-light" href="#">Curology</a>
+                    </h5>
+                </li>
+                <li class="nav-item">
+                    <h5>
+                        <a class="nav-link text-light disabled" href="#" tabindex="-1" aria-disabled="true">Dior</a>
+                    </h5>
+                </li>
+                <li class="nav-item">
+                    <h5>
+                        <a class="nav-link text-light disabled" href="#" tabindex="-1" aria-disabled="true">Chloe</a>
+                    </h5>
+                </li>
+                <li class="nav-item">
+                    <h5>
+                        <a class="nav-link text-light disabled" href="#" tabindex="-1" aria-disabled="true">ZARA</a>
+                    </h5>
+                </li>
+              </ul>
+        </div>
+    </div>
+
+<!-- layout 開始 -->
+    <div class="page-list mb-60">
+        
+        <div class="container">
+            <div class="row ">
+              <div class="col-6 col-md-3  mb-30 mb-md-60">
+                <div class="card" >
+                    <img src="img/product_list/1-1photo-1519669011783-4eaa95fa1b7d.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Poppy & Barley</h4>
+                        <p >Jo Malone</p>
+                        <p>NT$1,380 <s>NT$1,580</s></p>
+                        <div class="icon">
+                            <span class="material-icons text-primary mr-2">
+                                favorite
+                                </span>
+                            <span class="material-icons text-primary">
+                                shopping_cart
+                            <span>                                        
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-6 col-md-3 mb-30 mb-md-60">
+                <div class="card" >
+                    <img src="img/product_list/1-2photo-1530630458144-014709e10016.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Poppy & Barley</h4>
+                        <p >Jo Malone</p>
+                        <p>NT$1,380 <s>NT$1,580</s></p>
+                        <div class="icon">
+                            <span class="material-icons text-primary mr-2">
+                                favorite
+                                </span>
+                            <span class="material-icons text-primary">
+                                shopping_cart
+                            <span>                                        
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-6 col-md-3 mb-30 mb-md-60">
+                <div class="card" >
+                    <img src="img/product_list/1-3photo-1566977776052-6e61e35bf9be.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Poppy & Barley</h4>
+                        <p >Jo Malone</p>
+                        <p>NT$1,380 </p>
+                        <div class="icon">
+                            <span class="material-icons text-primary mr-2">
+                                favorite
+                                </span>
+                            <span class="material-icons text-primary">
+                                shopping_cart
+                            <span>                                        
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-6 col-md-3 mb-30 mb-md-60">
+                <div class="card" >
+                    <img src="img/product_list/1-4photo-1578996834254-13d1b661a5ed.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Poppy & Barley</h4>
+                        <p >Jo Malone</p>
+                        <p>NT$1,380 </p>
+                        <div class="icon">
+                            <span class="material-icons text-primary mr-2">
+                                favorite
+                                </span>
+                            <span class="material-icons text-primary">
+                                shopping_cart
+                            <span>                                        
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-6 col-md-3 mb-30 mb-md-60">
+                <div class="card" >
+                    <img src="img/product_list/2-1photo-1582211594533-268f4f1edcb9.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Poppy & Barley</h4>
+                        <p >Jo Malone</p>
+                        <p>NT$1,380 </p>
+                        <div class="icon">
+                            <span class="material-icons text-primary mr-2">
+                                favorite
+                                </span>
+                            <span class="material-icons text-primary">
+                                shopping_cart
+                            <span>                                        
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-6 col-md-3 mb-30 mb-md-60">
+                <div class="card" >
+                    <a href="product.html"><img src="img/product_list/2-2photo-1585120040315-2241b774ad0f.png" class="card-img-top" alt="...">
+                        </a>
+                        <div class="card-body">
+                        <h4>Poppy & Barley</h4>
+                        <p >Jo Malone</p>
+                        <p>NT$1,380 </p>
+                        <div class="icon">
+                            <span class="material-icons text-primary mr-2">
+                                favorite
+                                </span>
+                            <span class="material-icons text-primary">
+                                shopping_cart
+                            <span>                                        
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-6 col-md-3 mb-30 mb-md-60">
+                <div class="card" >
+                    <img src="img/product_list/2-3photo-1592842414746-a2fd2101381f.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Poppy & Barley</h4>
+                        <p >Jo Malone</p>
+                        <p>NT$1,380 </p>
+                        <div class="icon">
+                            <span class="material-icons text-primary mr-2">
+                                favorite
+                                </span>
+                            <span class="material-icons text-primary">
+                                shopping_cart
+                            <span>                                        
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-6 col-md-3 mb-30 mb-md-60">
+                <div class="card" >
+                    <img src="img/product_list/2-4photo-1544468266-6a8948003cd7.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Poppy & Barley</h4>
+                        <p >Jo Malone</p>
+                        <p>NT$1,380 </p>
+                        <div class="icon">
+                            <span class="material-icons text-primary mr-2">
+                                favorite
+                                </span>
+                            <span class="material-icons text-primary">
+                                shopping_cart
+                            <span>                                        
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-6 col-md-3 mb-30 mb-md-60">
+                <div class="card" >
+                    <img src="img/product_list/3-1photo-1584435731369-1e74c4e9385e.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Poppy & Barley</h4>
+                        <p >Jo Malone</p>
+                        <p>NT$1,380 </p>
+                        <div class="icon">
+                            <span class="material-icons text-primary mr-2">
+                                favorite
+                                </span>
+                            <span class="material-icons text-primary">
+                                shopping_cart
+                            <span>                                        
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-6 col-md-3 mb-30 mb-md-60">
+                <div class="card" >
+                    <img src="img/product_list/3-2photo-1592247691114-69a06342531a.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Poppy & Barley</h4>
+                        <p >Jo Malone</p>
+                        <p>NT$1,380 </p>
+                        <div class="icon">
+                            <span class="material-icons text-primary mr-2">
+                                favorite
+                                </span>
+                            <span class="material-icons text-primary">
+                                shopping_cart
+                            <span>                                        
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-6 col-md-3 mb-30 mb-md-60">
+                <div class="card" >
+                    <img src="img/product_list/3-3photo-1559264729-91549dddfc45.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Poppy & Barley</h4>
+                        <p >Jo Malone</p>
+                        <p>NT$1,380 </p>
+                        <div class="icon">
+                            <span class="material-icons text-primary mr-2">
+                                favorite
+                                </span>
+                            <span class="material-icons text-primary">
+                                shopping_cart
+                            <span>                                        
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-6 col-md-3 mb-30 mb-md-60">
+                <div class="card" >
+                    <img src="img/product_list/3-4photo-1594913366159-1832cfbe7ca1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4>Poppy & Barley</h4>
+                        <p >Jo Malone</p>
+                        <p>NT$1,380 </p>
+                        <div class="icon">
+                            <span class="material-icons text-primary mr-2">
+                                favorite
+                                </span>
+                            <span class="material-icons text-primary">
+                                shopping_cart
+                            <span>                                        
+                        </div>
+                    </div>
+                  </div>
+              </div>
+
+            </div>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+            
+                  <li class="page-item"><a class="page-link" href="#"><h5>1<h5></a></li>
+                  <li class="page-item"><a class="page-link" href="#"><h5>2</h5></a></li>
+                  <li class="page-item"><a class="page-link" href="#"><h5>3</h5></a></li>
+                </ul>
+              </nav>
+        </div>
+      
+    </div>
+<!-- layout 結束 -->
+<div class="container-fluid p-0" style="position: relative;">
+    <div class="footer-img">
+        <div class="d-md-none d-flex align-items-center " style=" height: 600px; max-width: 100%;background-image: url(img/layout/sphoto-1532413992378-f169ac26fff0@2x.png);  background-size: cover ;background-repeat: no-repeat; background-position: center; ">
+            <div class="container" >
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-gray8D">記得<br>訂閱以獲取更多資訊！</h2>        
+                    <div class="input-group">
+                        <input type="text" placeholder="Your email address"  class="form-control input-mail">
+                        <input  type="submit" class="bg-primary form-control input-subscribe"  value="Subscribe" >
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+        
+        </div>
+        <div class="d-none d-md-block d-md-flex justify-content-center align-items-center" style=" height: 600px; max-width: 100%;background-image: url(img/layout/photo-1532413992378-f169ac26fff0.png);  background-size: cover ;background-repeat: no-repeat; background-position: center; ">
+       
+            <div class="container" >
+                <div class="row">
+                    <div class="col-md-6 col-xl-4">
+                        <h2 class="text-gray8D">記得<br>訂閱以獲取更多資訊！</h2>        
+                    <div class="input-group">
+                        <input type="text" placeholder="Your email address"  class="form-control input-mail">
+                        <input  type="submit" class="bg-primary form-control input-subscribe"  value="Subscribe" >
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+       
+        
+        </div>
+    </div>
+   
+   
+</div>
+<div class="container-fluid bg-primary p-3">
+    <div class="container layout_fotter">
+  
+        <ul class=" nav text-light justify-content-between" >
+            <li class="nav-item d-flex align-items-center" >
+                <a  href="#">
+                    <img src="img/layout/d’Perfumew.png" alt="" class="d-inline  mr-3 " style="width: 128px; height:38px;">
+                </a>
+                    <span style="font-size: 14px;">© 2020. All Rights Reserved.</span>
+                
+            </li>
+            <ul class="d-none d-md-block d-md-flex nav">
+                <li class="nav-item">
+                    <h5><a class="nav-link" href="page-list.html">Product</a></h5>
+                </li>
+                <li class="nav-item">
+                   <h5> <a class="nav-link" href="#">Blog</a><h5>
+                </li>
+                <li class="nav-item">
+                    <h5><a class="nav-link" href="#">Contact</a></h5>
+                </li>
+            </ul>
+        </ul>
+    </div>
+</div>
+   
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
+
